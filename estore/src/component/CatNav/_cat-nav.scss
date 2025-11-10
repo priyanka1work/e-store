@@ -1,0 +1,33 @@
+@mixin transition (){
+    
+}
+.cat-nav{
+
+    border-top:1px solid rgb(77, 76, 76);
+    background-color:black;
+    
+    display: flex;
+  
+    justify-content: space-between;
+  
+    .list-item {
+       
+        display: inline-block; /* this makes list items appear in one row */
+        padding: .4em;
+        margin:.2em 1em;
+        height:.5em;
+        a{
+            font-weight: 700;
+            font-size: 0.9em;
+            color:white;
+            cursor: pointer;
+             &:hover{
+                background-color: rgb(19, 10, 10);
+                font-size: .99em;
+
+             }
+
+        }
+      
+    }    
+}

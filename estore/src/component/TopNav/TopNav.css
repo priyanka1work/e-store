@@ -1,0 +1,56 @@
+.header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    align-items: center;
+    margin: 0;
+    display: flex;
+    justify-content:space-between;
+  }
+  .brand {
+    font-weight: bold;
+  }
+  .searchBox {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  .searchBox input {
+    width: 50%;
+    padding-left: 10px;
+    border: none;
+  }
+  .searchBox input:focus {
+  }
+  .searchBox button {
+    border: none;
+    padding-left: 10px;
+    height: 2.5em;
+    cursor: pointer;
+  }
+  .select-category{
+    outline: none;
+    padding-left: 10px;
+    border: none;
+    background-color: azure;
+  }
+  .select-category:hover {
+    background-color: rgb(215, 223, 223);
+  }
+  .utility{
+    display:flex ;
+    padding: 1px;
+   
+  }
+  .utility-icon{
+    padding: 10px;
+    font:.96em sans-serif;
+  }
+  
+  .utility-icon:hover {
+    text-decoration:underline rgb(168, 176, 221);
+    cursor: pointer;
+  }
+  
+  
+  
