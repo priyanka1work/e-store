@@ -1,0 +1,34 @@
+.product-section{
+  
+  .product-grid {
+  
+    display: flex;
+    flex-wrap: wrap;
+  
+    justify-content: space-between;
+
+  .product-card {
+    margin-top: 8%;
+    // justify-content: space-evenly;
+    background: #ffffff; /* clean white cards */
+padding:1rem;    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    .product-img {
+      width: 8em;
+      height: 10em;
+      object-fit: cover; // keeps image nicely cropped
+      border-radius: 8px;
+    }
+    .product-info {
+      text-align: center;
+      color: red;
+    }
+
+    &:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    }
+  }
+}
+}

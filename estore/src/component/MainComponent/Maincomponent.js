@@ -1,12 +1,18 @@
-import React from 'react'
-import Sidebar from '../SideBar/Sidebar'
+import React from "react";
+import Sidebar from "../SideBar/Sidebar";
+import Product from "../Product";
+import "./_main-component.scss"
 
 function Maincomponent() {
   return (
     <>
-    <Sidebar/>
+      <div className="page-layout">
+       
+        <Sidebar />
+        <Product />
+      </div>
     </>
-  )
+  );
 }
 
-export default Maincomponent
+export default Maincomponent;
